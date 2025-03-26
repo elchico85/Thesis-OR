@@ -41,7 +41,7 @@ highlight(h, start_node, neighbors_start, 'EdgeColor', 'r', 'LineWidth', 1.5);
 
 hold off;
 
-% Display information in the console
+% Display information
 disp(['Farthest nodes: ', num2str(start_node), ' - ', num2str(end_node)]);
 disp(['Maximum distance: ', num2str(max_distance)]);
 disp(['Highlighted path length: ', num2str(length(shortest_path))]);
